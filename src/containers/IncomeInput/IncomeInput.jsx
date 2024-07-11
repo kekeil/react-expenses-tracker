@@ -11,7 +11,7 @@ export function IncomeInput(props) {
   }
   return (
     <div className="row justify-content-center mb-2">
-      <div className={`col-6 ${s.label}`}>Argent total</div>
+      <div className={`col-6 ${s.label}`}>Somme totale</div>
       <div className="col-6">
         <input
           defaultValue={income}
