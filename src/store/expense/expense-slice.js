@@ -4,7 +4,7 @@ export const expenseSlice = createSlice({
   name: "expenseSlice",
   initialState: {
     income: 1000,
-    expenseList: [{ name: "Ordinateur", price: 300 }],
+    expenseList: [],
   },
   reducers: {
     addExpense : (currentSlice,action)=>{
