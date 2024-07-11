@@ -11,11 +11,11 @@ export function ExpenseTotal(props) {
   return (
     <div>
       <div className="row">
-        <div className={`col ${s.label}`}>Total expenses</div>
+        <div className={`col ${s.label}`}>Dépenses Totale</div>
         <div className={`col ${s.amount}`}>{totalExpenses} Franc CFA</div>
       </div>
       <div className="row">
-        <div className={`col ${s.label}`}>Argent restant</div>
+        <div className={`col ${s.label}`}>Somme Restane</div>
         <div className={`col ${s.amount}`}>{remainingMoney} Franc CFA</div>
       </div>
     </div>
