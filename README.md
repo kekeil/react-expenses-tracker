@@ -1,2 +1,8 @@
-# react-expenses-tracker
- Its a react app to track your expenses
+# expense-tracker
+
+## Getting started 
+
+```bash
+npm i
+npm start
+```
